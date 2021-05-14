@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("https://cdn.discordapp.com/attachments/825661404631007232/842434109385343016/project_20210513_2142354-01.png");
+    height:100vh;
+    -webkit-background-size:auto;
+    background-size:cover;
+    background-position:center center;
+    position: relative;
+}
+
+#navbar {
+  background-color:aliceblue;
+  z-index:10;
+  position: fixed;
+  top: -100px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 17px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar h2 {
+    display: inline-block;
+    margin: 10px;
+    font-family:cursive;
+}
+
+#navbar a:hover {
+  background-color:lightblue;
+  color:#333;
+  border-radius: 20px;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropbtn {
+  font-size: 17px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 17px 15px;
+  background-color: inherit;
+  font-family: inherit;
+}
+
+.dropbtn:hover{
+  background-color:lightblue;
+  color:#333;
+  text-decoration: underline;
+  border-radius: 20px; 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:aliceblue;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content li {
+  width: 95px;
+  text-align: center;
+  color: black;
+  padding: 14px 16px;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content li:hover {
+  background-color:lightblue;
+  color: #333;
+
+}
+
+.logo img {
+  float: right;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: auto;
+    border-radius: 50px;
+    border: 2px solid antiquewhite;
+    padding: 1px;
+    transition: transform ease-in-out .5s;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
+.head {
+    font-size: 40px;
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    color: #fff;
+}
+
+.contact {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    text-align: center;
+}
+
+.contact a {
+    border: 1px solid white;
+    padding: 10px 25px;
+    margin : 5px;
+    border-radius:8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    color: white;
+}
+
+.contact a:hover {
+    background:white;
+    color: #333;
+}
+
+.open {
+  color:white;
+  position: absolute;
+  top: 1%;
+  left:1%;
+}
+
+.sidenav {
+  height: 91%;
+  width: 0;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color:aliceblue;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 10px 8px 10px 30px;
+  text-decoration: none;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color:#55acee ;
+  transform: scale(1.2);
+  transition-delay: -0.1s;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 0px;
+}
+
+.box {
+  display: flex;
+  width: 100%;
+}
+
+.box a {
+  text-decoration: none;
+  color: Black;
+}
+
+.box a :hover {
+  background-color: #dcb5f1;
+  color: white;
+}
+
+.filter {
+  display: flex;
+  background-color:white;
+  height: 100%;
+  padding: 15px;
+
+}
+
+.tryon, .find {
+  background: #3D94F6;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 15px;
+  margin: 5px;
+}
+
+.flex-items {
+  width: 80%;
+  border-left: 1px solid black;
+  background-color:azure;
+}
+
+.flex-box-items {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-evenly;
+  border: 1px red;
+}
+
+.flex-box-items img {
+  padding: 10px;
+  margin: 10px;
+}
+
+.flex-box-items img:hover {
+  box-shadow: 1px 1px 5px blanchedalmond;
+  transform: scale(1.05);
+  transition-delay: -0.1s;
+}
+
+.bottom-container {
+  background: #aacfd0;
+  padding: 10px 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  flex-direction: column;
+}
+
+.fa {
+  padding: 10px;
+  width: 50px;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-whatsapp {
+  background: #00b489;
+  color: white;
+}
+
+.fa-telegram {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}

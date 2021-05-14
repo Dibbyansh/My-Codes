@@ -1,0 +1,21 @@
+{
+    "folders": [
+		{
+			"name": "wtlab",
+			"path": "..\\wtlab"
+		},
+		{
+			"name": "project",
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\MY"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\xampp\\htdocs\\my"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "project"
+    }
+}
