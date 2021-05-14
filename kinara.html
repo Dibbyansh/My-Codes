@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kinara.css">
+    <title>K i n a r a</title>
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <div class="logo">
+                <img src="https://cdn.discordapp.com/attachments/825661404631007232/842404782437695488/logo.jpg">
+
+            </div>
+
+            <div class="contact">
+                <a href="login.html">Login</a>
+                <a href="#socials">contact us</a>
+            </div>
+        </header>
+    </div>
+
+    <span class="open" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+    <div id="navbar">
+
+        <h2><i class="fa fa-home" style="width: 20px; padding: 5px; margin: 1px;"></i>K I N A R A</h2>
+
+        <a href="login.html"><i class="fa fa-user" style="width: 20px; padding: 1px; margin: 1px;"></i>Login</a>
+        <a href="#about"><i class="fa fa-cart-arrow-down" style="width: 20px; padding: 1px; margin: 1px;"></i>Cart</a>
+        <a href="#"><i class="fa fa-gratipay" style="width: 20px; padding: 1px; margin: 1px;"></i>Wish-list</a>
+        <div class="dropdown">
+            <button class="dropbtn"><i class="fa fa-sort"
+                    style="width: 20px; padding: 1px; margin: 1px;"></i>Categories</button>
+            <div class="dropdown-content">
+                <li>Men</li>
+                <li>Women</li>
+                <li>Kids</li>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script async src="https://cse.google.com/cse.js?cx=7784e278dafab931a"></script>
+    <div class="gcse-search"></div>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#about">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="#">Accounts</a>
+        <a href="#socials">Contact</a>
+    </div>
+
+    <div class="box">
+        <div class="filter">
+            <a href="#">
+                <div class="tryon">
+                    3D Try-On
+                </div>
+            </a>
+            <a href="#">
+                <div class="find">
+                    Find A Product
+                </div>
+            </a>
+        </div>
+
+        <div id="products" class="flex-items">
+            <div class="flex-box-items">
+                <img src="https://publish.one37pm.net/wp-content/uploads/2020/10/converse-sneakers-mobile.jpg"
+                    style="width:20%">
+                <img src="https://publish.one37pm.net/wp-content/uploads/2020/10/converse-sneakers-mobile.jpg"
+                    style="width:20%">
+                <img src="https://publish.one37pm.net/wp-content/uploads/2020/10/converse-sneakers-mobile.jpg"
+                    style="width:20%">
+                <img src="https://publish.one37pm.net/wp-content/uploads/2020/10/converse-sneakers-mobile.jpg"
+                    style="width:20%">
+                <img src="https://publish.one37pm.net/wp-content/uploads/2020/10/converse-sneakers-mobile.jpg"
+                    style="width:20%">
+                <img src="https://publish.one37pm.net/wp-content/uploads/2020/10/converse-sneakers-mobile.jpg"
+                    style="width:20%">
+                <img src="https://publish.one37pm.net/wp-content/uploads/2020/10/converse-sneakers-mobile.jpg"
+                    style="width:20%">
+                <img src="https://publish.one37pm.net/wp-content/uploads/2020/10/converse-sneakers-mobile.jpg"
+                    style="width:20%">
+                <img src="https://publish.one37pm.net/wp-content/uploads/2020/10/converse-sneakers-mobile.jpg"
+                    style="width:20%">
+                <img src="https://publish.one37pm.net/wp-content/uploads/2020/10/converse-sneakers-mobile.jpg"
+                    style="width:20%">
+                <img src="https://publish.one37pm.net/wp-content/uploads/2020/10/converse-sneakers-mobile.jpg"
+                    style="width:20%">
+                <img src="https://publish.one37pm.net/wp-content/uploads/2020/10/converse-sneakers-mobile.jpg"
+                    style="width:20%">
+            </div>
+        </div>
+    </div>
+
+    <div id="socials" class="bottom-container">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-whatsapp"></a>
+        <a href="#" class="fa fa-telegram"></a>
+        <a href="#" class="fa fa-github"></a>
+        <a href="#" class="fa fa-rss"></a>
+    </div>
+
+
+    <script>
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 650 || document.documentElement.scrollTop > 650) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-100px";
+            }
+        }
+
+        document.getElementById('main').addEventListener('click', closeNav);
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "200px";
+            document.getElementById("main").style.marginLeft = "200px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.body.style.backgroundColor = "white";
+        }
+    </script>
+</body>
+
+</html>
