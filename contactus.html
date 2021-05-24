@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <a> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a> <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a> <i class="fa fa-telegram" aria-hidden="true"></i> </a>
+                <a> <i class="fa fa-youtube" aria-hidden="true"></i> </a>
+                <a> <i class="fa fa-github" aria-hidden="true"></i> </a>
+            </nav>
+        </div>
+
+        <div class="header">
+            <h1>KINARA</h1>
+            <h2>Please don't hesitate to reach out to us </h2>
+        </div>
+
+        <div class="contact">
+            <form action="" id="contactform">
+                <h2>Name</h2>
+                <input type="text" value="" name="name" id="contact-name" required>
+                <h2>Email</h2>
+                <input type="email" value="" name="email" id="contact-email" required>
+                <h2>Message</h2>
+                <textarea name="message" value="" id="contact-message" cols="30" rows="10" required></textarea>
+                <div>
+                    <input onclick="success()" type="submit" class="btn">
+
+                </div>
+            </form>
+
+            <script>
+                function success() {
+                        alert("Successfully submitted");
+                    }
+
+             
+            </script>
+        </div>
+    </div>
+
+</body>
+
+</html>

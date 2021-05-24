@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(to right, #51c4d3, #d8e3e7);
+    font-family: 'Courier New', Courier, monospace; 
+    overflow-x: hidden;
+}
+
+.container {
+    background: #fff;
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 2px 5px 20px rgba(119, 119, 119, .5);
+}
+
+.sidebar {
+    float: left;
+    left: -5%;
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    background: #2978b5;
+    box-shadow: 3px 5px 20px rgba(119, 119, 119, .5);
+    border: .1em solid #fff;
+}
+
+.righttab {
+    width: 60%;
+    margin-left: 27%;
+    padding-top: 5px;
+}
+
+h1 {
+    color: #31326f;
+    font-size: 1.5rem;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+h2 {
+    color: black;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+h3 {
+    color: #777;
+    font-size: 0.8rem;
+}
+
+.input {
+    border: 0;
+    border-bottom: 1px solid black;
+    width: 80%;
+    font-family: 'Exo 2', sans-serif;
+    font-size: .7em;
+    padding: 5px 0;
+    color: #070707;
+}
+
+.btn {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 0;
+    color: white;
+    background: #31326f;
+    padding: 7px 15px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Address {
+    margin-top: 10px;
+    border: 1px solid black;
+}

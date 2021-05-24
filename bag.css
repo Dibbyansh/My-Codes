@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.kin_logo img{
+    float: right;
+    width: 120px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 40px 40px;
+    border-radius: 60px;
+    border: 2px solid antiquewhite;
+    padding: 1px;
+    transition: transform ease-in-out .5s;
+}
+
+.kin_logo img:hover{
+    transform: scale(1.1);
+}
+
+.row{
+    text-align:center;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:bisque;
+}
+.column{
+    text-align:left;
+    font-size: 15px;
+    padding-left: 15px;
+    background-color:blueviolet;
+}
+    .btn {
+        background-color: lightpink;
+        position:relative; 
+        margin-right:500px;
+        border:none;
+        color:white;
+        padding: 12px 16px;
+        font-size:16px;
+        cursor:pointer;
+    }
+
+.btn:hover{
+    background-color: hotpink;
+} 
+
+.bnn {
+    background-color: lightpink;
+    border:none;
+    position:relative; 
+    margin-right:0px;
+    color: white;
+    margin-left:790px;
+    padding: 12px 16px;
+    font-size:16px;
+    cursor:pointer;
+}
+.bnn:hover{
+    background-color: hotpink;
+} 
+.bns {
+    background-color:lightpink;
+    border:none;
+    position:relative; 
+    margin-right:0px;
+    color:white;
+    padding: 12px 16px;
+    font-size:16px;
+    cursor:pointer;
+}
+.bns:hover{
+    background-color: hotpink;
+} 
+
+.flex-container{
+    display: flex;
+    background-color: aqua;
+}
+
+.flex-container > div {
+    background-color: rgb(129, 209, 165);
+    margin: 10px;
+    height: 200px;
+    padding: 245px;
+    font-size: 90px;
+}
+div.scroll {
+margin:10px,10px;
+padding:10px;
+background-color: rgb(243, 243, 189);
+width:1000px;
+height:670px;
+overflow-x: hidden;
+overflow-y: auto;
+}

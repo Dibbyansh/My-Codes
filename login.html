@@ -1,28 +1,30 @@
+<html>
+
 <head>
   <title>login form</title>
   <meta="charset-utf8">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="login.css">
 
 <body>
-  <form name="myform">
 
-
+  <form action="login.php" method="POST">
     <center>
-      <p id="form"><i>Login Form - Welcome to KINARA</i></P>
+      <p id="form">Login to KINARA</P>
       <div id="box">
         <label>User name </label></br>
         </br><input type="text" class="form-control" name="user"></br>
         <label>Password </label></br> </br><input type="password" class="form-control" name="pass">
         </br>
         </br>
-        <a href="#" id="login" onclick="myfunction()">login</a>
+        <button id="login">Login</button>
+        <div class="signin">New Member? <a href="register.html"> Sign in </a> </div>
+      </div>
     </center>
   </form>
-  <script src="login.js"></script>
 
-  </div>
 </body>
 
 </html>
